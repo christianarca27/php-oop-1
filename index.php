@@ -36,7 +36,7 @@ require_once './db.php';
             foreach ($movies as $movie) {
                 ?>
                 <li class="list-group-item d-flex align-items-center gap-5">
-                    <img class="movie-poster" src="<?= $movie->poster ?>" alt="">
+                    <img class="movie-poster" src="<?= $movie->poster ?>" alt="Copertina film">
                     <p>
                         <?= $movie->getStringDetails() ?>
                     </p>
